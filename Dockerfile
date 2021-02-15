@@ -1,4 +1,4 @@
-FROM alpine:3.12.0 AS builder
+FROM alpine:3.13.1 AS builder
 ARG VERSION
 
 WORKDIR /usr/local/src/
